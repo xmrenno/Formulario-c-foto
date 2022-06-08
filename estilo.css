@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+fieldset {
+    border: 2px solid black;
+    background-color: #EEEEEE;
+    margin-bottom: 30px;
+    font-family: 'El Messiri', sans-serif;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    margin: 5px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+legend {
+    border: 1px solid red;
+    background-color: black;
+    color: red;
+    font-family: 'El Messiri', sans-serif;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+label {
+    font-family: 'El Messiri', sans-serif;
+}
+
+input[type=date] {
+    margin: 5px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+button {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}

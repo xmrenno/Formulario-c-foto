@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css" />
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário de Inscrição</h1>
+    <form method="post" action="login.html">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label><br />
+                Primeiro Nome:<br />
+                <input type="text" name="nome" required minlength="2" maxlength="15" />
+            </label>
+            <label><br />
+                Sobrenome:<br />
+                <input type="text" name="sobrenome" required minlength="2" maxlength="15" />
+            </label>
+            <label><br />
+                E-mail:<br />
+                <input type="email" name="email" required /></label>
+            </label>
+            <label><br />
+                Foto de perfil:<br />
+                <input type="file" name="foto" accept="image/*">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais:</legend>
+            <label><br />
+                Nome da Empresa:<br />
+                <input type="text" name="company" required minlength="2" maxlength="15" />
+            </label>
+            <label><br />
+                Cargo na Empresa:<br />
+                <input type="text" name="job" required minlength="2" maxlength="15" />
+            </label>
+        </fieldset>
+        <button name="submit" value="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>
+
+</html>
